@@ -8,7 +8,7 @@ conn,address = server_socket.accept()
 print("Connection from:"+ str(address))
 while True:
     data = conn.recv(1024).decode()
-    if not data :
+    if not data:
         break
     print("from connected user:"+str(data))
     data = input('->')

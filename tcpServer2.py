@@ -1,4 +1,3 @@
-from socket import *
 server=socket()
 server.bind(('localhost',9000))
 server.listen()
